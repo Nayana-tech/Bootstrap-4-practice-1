@@ -1,0 +1,32 @@
+fieldset legend::after {
+    display: block;
+    border: 1px solid blue;
+    width: calc(100% - 58px);
+    content: "";
+    position: relative;
+    left: 58px;
+    bottom:20px;
+
+}
+
+.builder::after, .acties::after{
+    width: calc(100% - 80px);
+    position: relative;
+    left: 80px;
+   
+ 
+
+}
+.acties::after{
+    border-color: black;
+}
+
+.pagina-small{
+    font-size: 12px;
+}
+
+ul li{
+    list-style: none;
+   
+}
+
